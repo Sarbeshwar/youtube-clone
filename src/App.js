@@ -5,7 +5,7 @@ import VideoList from './components/video_list'
 import VideoDetail from './components/video_detail';
 import Comments from './components/comments';
 import Like from './components/like';
-const API_KEY = 'AIzaSyBdVut9QCzqAHBzfDEh30yUp4E529som6s';
+const API_KEY = 'AIzaSyCZ9gretN1gHv15wssTQyOktP09eeANuP8';
 
 class App extends Component {
   constructor(props){  
@@ -16,7 +16,7 @@ class App extends Component {
         selectedVideo: null
     };
 
-    this.videoSearch('Upgrad');  //query which initially search for Upgrad 
+    this.videoSearch('Coronavirus');  //query which initially search for Upgrad 
 }
 
 videoSearch(searchTerm) {
